@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Pages/Home/Home";
+import TopBar from "./components/TopBar/TopBar";
+import Single from "./Pages/Single/Single";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>My Blog Website</h1>
-      </header>
-    </div>
+    <>
+     <TopBar />
+     {/* <Home /> */}
+     <Single />
+    </>
   );
 }
 
